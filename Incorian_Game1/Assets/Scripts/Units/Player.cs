@@ -45,6 +45,5 @@ public class Player : Character
             if (kc == KeyCode.W) _playerMovement.MoveForward(this, time);
             if (kc == KeyCode.S) _playerMovement.MoveBackwards(this, time);
         };
-        Debug.Log("Player Start Completed");
     }
 }
